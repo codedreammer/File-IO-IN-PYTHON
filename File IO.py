@@ -1,4 +1,4 @@
-
+'''
 f = open('File-IO-IN-PYTHON/myFile.txt', 'r')
 
 text = f.read()
@@ -16,3 +16,9 @@ f = open('File-IO-IN-PYTHON/myFile3.txt', 'w')
 text = f.write()
 print(text)
 f.close()
+'''
+f = open('File-IO-IN-PYTHON/myFile3.txt', 'w')
+f.write('Hello, world!')
+f.close()
+
+
