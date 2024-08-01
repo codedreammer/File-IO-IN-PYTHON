@@ -18,7 +18,8 @@ print(text)
 f.close()
 '''
 f = open('File-IO-IN-PYTHON/myFile3.txt', 'w')
-f.write('Hello, world!')
+f.write('Hello, world! ')
 f.close()
 
-
+with open('File-IO-IN-PYTHON/myFile3.txt', 'a') as f:
+    f.write("Hey I as inside with")
