@@ -1,0 +1,2 @@
+to creat file we use 'w'
+to read text we use 'r'
