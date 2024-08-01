@@ -1,2 +1,5 @@
 to creat file we use 'w'
 to read text we use 'r'
+'a' is append 
+'with' we can add text in file without close it 
+
